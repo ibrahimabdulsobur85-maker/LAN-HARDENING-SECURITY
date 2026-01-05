@@ -1,0 +1,18 @@
+! Enable Port Security on an Interface
+interface GigabitEthernet0/1
+  switchport mode access
+  switchport port-security
+  
+  ! Max 1 MAC address per port
+  switchport port-security maximum 1
+  
+  ! "Sticky" learns the first MAC address and saves it to config
+  switchport port-security mac-address sticky
+  
+  ! Shut down the port immediately if a breach is detected
+  switchport port-security violation shutdown
+  
+  ! Standard hardening: Disable DTP and CDP on access ports
+  switchport nonegotiate
+  no cdp enable
+exit

@@ -8,7 +8,7 @@ This repository provides production-ready configurations to mitigate **Man-in-th
 The following diagram illustrates the boundary between trusted and untrusted network segments.
 
 <p align="center">
-  <img src="https://imgur.com/a/W9tC0NC" alt="DHCP Snooping Diagram" width="700">
+  <img src="https://imgur.com/uTN8iDG" alt="DHCP Snooping Diagram" width="700">
   <br>
   <i>Figure 1: Trusted vs. Untrusted port logic for DHCP traffic.</i>
 </p>

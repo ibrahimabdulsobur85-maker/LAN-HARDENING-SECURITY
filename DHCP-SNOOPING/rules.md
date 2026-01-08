@@ -3,9 +3,9 @@
 - <B>DESCRIPTION: Layer 2 mitigation for Rogue DHCP & Starvation</B>
 
 <H2>RULE 1: GLOBAL ACTIVATION</H2>
-- <B>Enable the snooping engine and define protected VLANs.
-- <B>ip dhcp snooping
-- <B>ip dhcp snooping vlan 1
+- <B> Enable the snooping engine and define protected VLANs.
+- <B> ip dhcp snooping
+- <B> ip dhcp snooping vlan 1
 
 <H2> RULE 2: TRUST BOUNDARY ENFORCEMENT ---
 Explicitly permit DHCP server traffic ONLY on authorized uplinks.
